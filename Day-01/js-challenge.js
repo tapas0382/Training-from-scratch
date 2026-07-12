@@ -16,6 +16,12 @@ const frequency = numbers.reduce((acc, num) => {
     return acc;
 }, {});
 
+// another method
+const loopFrequency = {};
+for (const num of numbers) {
+    loopFrequency[num] = (loopFrequency[num] || 0) + 1;
+}
+
 console.log("Max: ", max);
 console.log("Min: ", min);
 console.log("Sum: ", sum);
@@ -24,3 +30,4 @@ console.log("Unique: ", uniqueNumbers);
 console.log("Ascending order: ", asc);
 console.log("Descending Order: ", desc);
 console.log("frequency: ", frequency);
+console.log("frequency: ", loopFrequency);
