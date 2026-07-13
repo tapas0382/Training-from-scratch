@@ -1,3 +1,5 @@
+// Reverse a String (Without .reverse())
+
 function reverseString(str) {
     let reversed = "";
 

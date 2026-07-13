@@ -1,3 +1,5 @@
+// Arrays
+
 let fruits = ["Apple", "Banana", "Mango"];
 
 fruits.push("Orange");                       // add to the end

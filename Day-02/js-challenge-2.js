@@ -1,3 +1,6 @@
+// Student Object
+// Here we create the object and write standalone functions that take the object in as a parameter.
+
 const student = {
     name: "Tapas",
     age: 22,
