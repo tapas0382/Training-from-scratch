@@ -1,3 +1,5 @@
+// methods, loops in objects
+
 const user = {
     name: "Goku",
     greet() {
