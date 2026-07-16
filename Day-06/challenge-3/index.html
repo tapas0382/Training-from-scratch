@@ -1,0 +1,31 @@
+<!-- Random User Viewer -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Viewer</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; background: #f4f4f9; }
+        .card { background: white; padding: 20px; border-radius: 10px; width: 300px; margin: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        img { border-radius: 50%; width: 100px; height: 100px; }
+        button { padding: 10px 20px; margin-top: 15px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 5px; }
+        button:disabled { background: #ccc; cursor: not-allowed; }
+        #loading { display: none; color: gray; font-style: italic; }
+    </style>
+ </head>
+ <body>
+    
+    <div class="card">
+        <img id="profile-pic" src="https://via.placeholder.com/100" alt="profile">
+        <h2 id="full-name">Name</h2>
+        <p id="email">Email</p>
+        <p id="country">Country</p>
+
+        <p id="loading">Loading user data...</p>
+        <button id="load-btn">Load Random User</button>
+    </div>
+
+    <script src="script.js"></script>
+ </body>
+ </html>
