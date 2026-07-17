@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 - DOM Mastery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- change Heading -->
+         <section class="card">
+            <h2 id="change-heading">Original Heading</h2>
+            <button id="change-btn">Change Heading</button>
+         </section>
+
+         <!-- Dark Mode -->
+         <section class="card">
+            <h2>Dark Mode</h2>
+            <button id="dark-mode-btn">Enable Dark Mode</button>
+         </section>
+
+         <!-- Counter App -->
+          <section class="card">
+            <h2>Counter App</h2>
+            <h1 id="count">0</h1>
+            <button id="decrease-btn">-</button>
+            <button id="reset-btn">Reset</button>
+            <button id="increase-btn">+</button>
+          </section>
+
+          <!-- Character Counter -->
+           <section class="card">
+            <h2>Character Counter</h2>
+            <textarea id="char-input" rows="4" placeholder="Type something..."></textarea>
+            <p>Characters: <span id="char-count">0</span></p>
+           </section>
+
+           <!-- To-Do List -->
+            <section class="card">
+                <h2>Dynamic To-Do List</h2>
+                <div class="todo-input-gruop">
+                    <input type="text" id="todo-input" placeholder="Enter a task...">
+                    <button id="add-todo-btn">Add Task</button>
+                </div>
+                <ul id="todo-list">
+                    <!-- Task will be injected here -->
+                </ul>
+            </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
