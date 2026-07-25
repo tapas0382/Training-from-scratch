@@ -8,4 +8,4 @@ for (let char of str) {
     // else frequency[char] = 1;
 };
 
-console.log(`frequency of each characters in the string is ${frequency}`);
+console.log(`frequency of each characters in the string is ${JSON.stringify(frequency)}`);
