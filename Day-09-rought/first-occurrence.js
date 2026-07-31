@@ -15,4 +15,4 @@ function firstOccurrence (arr, target) {
     };
     return answer;
 };
-console.log(firstOccurrence([1,2,2,2,3,4], 3));
+console.log(firstOccurrence([1,2,2,2,3,4], 2));
