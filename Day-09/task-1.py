@@ -10,24 +10,29 @@ print(type(name))
 eligible = True
 print(type(eligible))
 
-# i dont know about none
+is_rain = True
+rain = None
+if not is_rain:
+    print(rain)
+else:
+    print(is_rain)
 
 sum = 2 + 3
 sub = 5 - 2
 mul = 6 * 5
 div = 8 / 4
 
-# i dont know use of //
+print(f"The roundup division of 8 to 3 is: {8 // 3}")
 
 mod = 98 % 10  #answer will be 8
 
-# i dont know use of **
+print(f"The value of 2 exponent 3 is: {2 ** 3}")
 
 # i know use of comparison operators, no need to write here
 
 if eligible and name:
     print(name)         # it will print the name cause both are true
 
-# i dont know how to use not, give me example
+# i used not in an example above
 
 # i see there are much similarities between python and javascript but these are different, there syntax are very different, python have very smaller and simpler syntaxes, types should be define in javascript
