@@ -12,9 +12,9 @@ if students:
     s = 0
     avg = 0
     highest = students[0]["marks"]
-    highest_name = ""
+    highest_name = students[0]["name"]
     lowest = students[0]["marks"]
-    lowest_name = ""
+    lowest_name = students[0]["name"]
     passed = 0
     failed = 0
     

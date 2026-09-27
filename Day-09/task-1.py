@@ -17,7 +17,7 @@ if not is_rain:
 else:
     print(is_rain)
 
-sum = 2 + 3
+add = 2 + 3
 sub = 5 - 2
 mul = 6 * 5
 div = 8 / 4

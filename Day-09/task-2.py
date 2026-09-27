@@ -1,23 +1,23 @@
 def grade_check(marks):
     if 90 <= marks <= 100:
-        print("Excellent")
+        return "Excellent"
 
     elif 75 <= marks <= 89:
-        print("Very Good")
+        return "Very Good"
 
     elif 60 <= marks <= 74:
-        print("Good")
+        return "Good"
 
     elif 40 <= marks <= 59:
-        print("Pass")
+        return "Pass"
 
     elif 0 <= marks < 40:
-        print("Fail")
+        return "Fail"
 
     else:
-        print("Invalid marks")
+        return "Invalid marks"
 
 test_case = [39, 40, 74, 75, 89, 90, 100, -5, 150]
 
 for marks in test_case:
-    grade_check(marks)
+    print(grade_check(marks))

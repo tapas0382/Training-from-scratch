@@ -23,11 +23,14 @@ multiplication_table(7)
 
 # find largest va;ue below
 def find_large(arr):
-    max = arr[0]
+    if not arr:
+        return None
+    
+    largest = arr[0]
     for num in arr:
-        if max <= num:
-            max = num
+        if largest <= num:
+            largest = num
+    return largest
 
-    print("The largest value is: ", max)
-
-find_large([12, 45, 7, 89, 23, 56, 3])
+largest = find_large([12, 45, 7, 89, 23, 56, 3])
+print("The largest value is: ", largest)
